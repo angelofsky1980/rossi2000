@@ -7,6 +7,8 @@ DEPENDS = "\
   enigma2-plugin-skins-rossi2000-dbuk-hd \ 
   enigma2-plugin-systemplugins-rossi2000-bouquetupdater \
   enigma2-plugin-systemplugins-rossi2000-cronmanager \
+  enigma2-plugin-systemplugins-rossi2000-dbuk-panel \
+  enigma2-plugin-systemplugins-rossi2000-fpgaupgrade \
   enigma2-plugin-systemplugins-rossi2000-graphmultiepg \
   enigma2-plugin-systemplugins-rossi2000-openvpn \
   enigma2-plugin-systemplugins-rossi2000-piconupdater \
