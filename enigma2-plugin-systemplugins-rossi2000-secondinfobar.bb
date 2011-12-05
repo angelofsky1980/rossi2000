@@ -1,6 +1,6 @@
-MODULE = "PiconUpdater"
-DESCRIPTION = "update your bouquets from dreambox"
-HOMEPAGE = https://github.com/rossi2000/rossi2000-PiconUpdater
+MODULE = "2IB"
+DESCRIPTION = "secondinfobar"
+HOMEPAGE = https://github.com/rossi2000/rossi2000-2IB
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"
@@ -14,7 +14,7 @@ do_compile() {
 	python -O -m compileall ${S}
 }
 
-PLUGINPATH = "/usr/lib/enigma2/python/Plugins/SystemPlugins/${MODULE}"
+PLUGINPATH = "/usr/lib/enigma2/python/Plugins/Extensions/${MODULE}"
 do_install() {
 	install -d ${D}${PLUGINPATH}
 	cp -rp ${S}/plugin/* ${D}${PLUGINPATH}

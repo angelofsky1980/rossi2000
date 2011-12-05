@@ -1,6 +1,6 @@
 MODULE = "OpenVPN"
 DESCRIPTION = "update your bouquets from dreambox"
-HOMEPAGE = https://github.com/rossi2000/OpenVPN
+HOMEPAGE = https://github.com/rossi2000/rossi2000-OpenVPN
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"

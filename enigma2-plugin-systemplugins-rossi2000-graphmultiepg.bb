@@ -1,6 +1,6 @@
 MODULE = "GraphMultiEPG"
 DESCRIPTION = "update your bouquets from dreambox"
-HOMEPAGE = https://github.com/rossi2000/GraphMultiEPG
+HOMEPAGE = https://github.com/rossi2000/rossi2000-GraphMultiEPG
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"

@@ -1,6 +1,6 @@
 MODULE = "Cronmanager"
 DESCRIPTION = "update your bouquets from dreambox"
-HOMEPAGE = https://github.com/rossi2000/Cronmanager
+HOMEPAGE = https://github.com/rossi2000/rossi2000-Cronmanager
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"
@@ -24,7 +24,7 @@ do_install() {
 	cp -rp ${S}/cronmanager.sh ${D}${CRONPATH}
 	cp -rp ${S}/timezone.sh ${D}${CRONPATH}	
 	install -d ${D}${CRONSCRIPTPATH}
-	cp -rp ${S}/script/* ${D}${CRONSCRIPTPATH}
+	cp -rp ${S}/scripts/* ${D}${CRONSCRIPTPATH}
 }
 
 FILES_${PN} = "${PLUGINPATH} ${CRONPATH} ${CRONSCRIPTPATH}"
