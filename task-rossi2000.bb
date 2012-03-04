@@ -5,7 +5,9 @@ inherit task
 
 DEPENDS = "\
   enigma2-plugin-skins-rossi2000-dbuk-hd \ 
+  enigma2-plugin-systemplugins-rossi2000-applefileshare \
   enigma2-plugin-systemplugins-rossi2000-bouquetupdater \
+  enigma2-plugin-systemplugins-rossi2000-cccaminfo \
   enigma2-plugin-systemplugins-rossi2000-cronmanager \
   enigma2-plugin-systemplugins-rossi2000-dbuk-panel \
   enigma2-plugin-systemplugins-rossi2000-fpgaupgrade \
